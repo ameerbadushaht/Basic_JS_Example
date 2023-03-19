@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+    background-color: rgb(27, 28, 31);
+}
+
+.calbody {
+    height: 550px;
+    width: 350px;
+    border: solid 2px black;
+    margin-top: 50px;
+    margin-left: 500px;
+    background-color: rgb(49, 79, 135);
+    padding: 20px;
+    border-radius: 10px
+    
+}
+
+.calbody{
+
+    box-shadow:  -6px -20px 35px #2e314d, -6px -10px 15px #39345d, -20px 0px 30px #423939, 6px 20px 25px rgba(0,0,0,0.2);
+    
+    
+}
+
+#caldisplay {
+    height: 100px;
+    width: 300px;
+    border: solid 1px black;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 25px;
+    background-color: rgb(193, 247, 247);
+}
+
+#b {
+    margin: 30px;
+    padding: 20px 22px;
+    
+
+
+}
+
+
+
+button {
+    padding: 10px 15px;
+    border-radius: 5px 10px;
+    /* border-radius: 40px; */
+    box-shadow:  -6px -20px 35px #3d4381, -6px -10px 15px #7d7b7b, -20px 0px 30px #0c0c0c, 6px 20px 25px rgba(0,0,0,0.2);
+    transition: .13s ease-in-out;
+    cursor:pointer;
+    &:active{
+      
+      .button__content{
+        
+        .button__text, .button__icon{
+          transform:translate3d(0px, 0px, 0px);}}}
+
+}
